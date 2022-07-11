@@ -1,0 +1,36 @@
+{
+  "name": "brainfuck-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/brainfuck-reader.js",
+  "bin": "dist/brainfuck-reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polnio/brainfuck-reader.git"
+  },
+  "author": "polnio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polnio/brainfuck-reader/issues"
+  },
+  "homepage": "https://github.com/polnio/brainfuck-reader#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  },
+  "pkg": {
+    "outputPath": "bin"
+  }
+}
